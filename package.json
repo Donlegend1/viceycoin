@@ -20,6 +20,10 @@
         "vite": "^5.0.0"
     },
     "dependencies": {
-        "ethers": "^6.13.5"
+        "@headlessui/react": "^2.2.0",
+        "@heroicons/react": "^2.2.0",
+        "ethers": "^6.13.5",
+        "react-tsparticles": "^2.12.2",
+        "tsparticles": "^3.7.1"
     }
 }
