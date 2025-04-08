@@ -137,7 +137,7 @@ const WalletConnect = () => {
                                         <div className="row no-gutters">
                                             <div className="col-12 col-lg-4 col-md-5">
                                                 <ul className="points points01">
-                                                    <li className="h5"><i className="fa fa-angle-right"></i> 1 $Vicey = $0.00697</li>
+                                                    <li className="h5"><i className="fa fa-angle-right"></i> 1 $Vicey = $0.1</li>
                                                     
                                                 </ul>
                                             </div>

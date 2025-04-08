@@ -127,7 +127,7 @@
 						<h2>Fair</h2>
 						<img src="images/about-1.png" alt="">
 						<p>Experience fairness in every transaction. We are committed to providing a transparent and equitable service for all users.</p>
-						<a href="/register" class="btn-2">Read More</a>
+						<!-- <a href="/register" class="btn-2">Read More</a> -->
 					</div>
 				</div>
 				<div class="col-12 col-sm-6 col-lg-4 text-center">
@@ -135,7 +135,7 @@
 						<h2>Fast</h2>
 						<img src="images/about-2.png" alt="">
 						<p>Speed is our priority. Enjoy swift transactions and seamless processes designed to save you time.</p>
-						<a href="/register" class="btn-2">Read More</a>
+						<!-- <a href="/register" class="btn-2">Read More</a> -->
 					</div>
 				</div>
 				<div class="col-12 col-sm-6 col-lg-4 text-center">
@@ -143,7 +143,7 @@
 						<h2>Trusty</h2>
 						<img src="images/about-3.png" alt="">
 						<p>Build trust with a platform that prioritizes your security and reliability in every interaction.</p>
-						<a href="/register" class="btn-2">Read More</a>
+						<!-- <a href="/register" class="btn-2">Read More</a> -->
 					</div>
 				</div>
 			</div>
@@ -153,7 +153,7 @@
 	<!-- About Part End -->
 
 	<!-- Countries Part Start -->
-	<section id="countries-part" class="section-p">
+	<!-- <section id="countries-part" class="section-p">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 text-center">
@@ -222,7 +222,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	
 	
 	<!-- Countries Part End -->
@@ -258,7 +258,7 @@
 								<img src="images/why-2.jpg" alt="">
 							</div>
 							<div class="why-item-des">
-								<h3>Bitcoin is Open</h3>
+								<h3>Vicey is Open</h3>
 								<p>Vicey Coin takes advantage of the open-source nature of Bitcoin technology, giving you the flexibility to explore and engage with digital assets freely. As we build on this foundation, we offer you the chance to be a part of a new era in blockchain technology.</p>
 								<a href="#" class="font-size-15">More Details</a>
 							</div>
@@ -268,7 +268,7 @@
 								<img src="images/why-3.jpg" alt="">
 							</div>
 							<div class="why-item-des">
-								<h3>Bitcoin Uses</h3>
+								<h3>Vicey Uses</h3>
 								<p>Vicey Coin leverages the cutting-edge functionality of Bitcoin's infrastructure to enhance the way digital currencies are used. From secure transactions to decentralized applications, the potential is limitless.</p>
 								<a href="#" class="font-size-15">More Details</a>
 							</div>
@@ -288,7 +288,7 @@
 	<!-- Token Part End -->
 
 	<!-- Currency Calculator Part start -->
-	<section id="calculator-part" class="section-p">
+	<!-- <section id="calculator-part" class="section-p">
 		<div class="container">
 			<div class="row d-flex align-items-center">
 				<div class="col-12 col-md-6">
@@ -314,7 +314,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- Currency Calculator Part End -->
 
 	<!-- Counter Part Start -->
@@ -357,72 +357,41 @@
 				<div class="col-sm-6 col-md-4">
 					<div class="price-item">
 						<div class="coin-type">
-							<h5>BTC-ETH</h5>
+							<h5>VCY-USDT</h5>
 						</div>
-						<h3>1 Bitcoin</h3>
+						<h3>1 Vicey</h3>
 						<p>for</p>
-						<h2>$ <span class="counter">16600.32</span></h2>
+						<h2>$ <span class="counter">0.1</span></h2>
 						<a href="#" class="btn-4">BUY NOW</a>
 					</div>
 				</div>
 				<div class="col-sm-6 col-md-4">
 					<div class="price-item">
 						<div class="coin-type">
-							<h5>BTC-ETH</h5>
+							<h5>VCY-USDT</h5>
 						</div>
-						<h3>1 Bitcoin</h3>
+						<h3>1 Vicey</h3>
 						<p>for</p>
-						<h2>$ <span class="counter">16600.32</span></h2>
+						<h2>$ <span class="counter">0.1</span></h2>
 						<a href="#" class="btn-4">BUY NOW</a>
 					</div>
 				</div>
 				<div class="col-sm-6 col-md-4">
 					<div class="price-item">
 						<div class="coin-type">
-							<h5>BTC-ETH</h5>
+							<h5>VCY-USDT</h5>
 						</div>
-						<h3>1 Bitcoin</h3>
+						<h3>1 Vicey</h3>
 						<p>for</p>
-						<h2>$ <span class="counter">16600.32</span></h2>
+						<h2>$ <span class="counter">0.1</span></h2>
 						<a href="#" class="btn-4">BUY NOW</a>
 					</div>
 				</div>
-				<div class="col-sm-6 col-md-4">
-					<div class="price-item">
-						<div class="coin-type">
-							<h5>BTC-ETH</h5>
-						</div>
-						<h3>1 Bitcoin</h3>
-						<p>for</p>
-						<h2>$ <span class="counter">16600.32</span></h2>
-						<a href="#" class="btn-4">BUY NOW</a>
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-4">
-					<div class="price-item">
-						<div class="coin-type">
-							<h5>BTC-ETH</h5>
-						</div>
-						<h3>1 Bitcoin</h3>
-						<p>for</p>
-						<h2>$ <span class="counter">16600.32</span></h2>
-						<a href="#" class="btn-4">BUY NOW</a>
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-4">
-					<div class="price-item">
-						<div class="coin-type">
-							<h5>BTC-ETH</h5>
-						</div>
-						<h3>1 Bitcoin</h3>
-						<p>for</p>
-						<h2>$ <span class="counter">16600.32</span></h2>
-						<a href="#" class="btn-4">BUY NOW</a>
-					</div>
-				</div>
+			
+		
 
 				<div class="col-12 text-center mt-5">
-					<a href="#" class="btn-4">Load More Bitcoin</a>
+					<!-- <a href="#" class="btn-4">Load More Bitcoin</a> -->
 				</div>
 			</div>
 		</div>
@@ -456,7 +425,7 @@
 	<!-- Newsletter Part End -->
 
 	<!-- Blog Part Start -->
-	<section id="blog-part" class="section-p padding-110">
+	<!-- <section id="blog-part" class="section-p padding-110">
 		<div class="container">
 			<div class="row text-center">
 				<div class="col-12">
@@ -522,7 +491,7 @@
 	
 			</div>
 		</div>
-	</section>
+	</section> -->
 	
 	<!-- Blog Part End -->
 

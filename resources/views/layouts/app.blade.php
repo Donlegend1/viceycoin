@@ -39,41 +39,7 @@
     <coingecko-coin-price-marquee-widget  coin-ids="bitcoin,ethereum,eos,ripple,litecoin" currency="usd" background-color="linear-gradient(45deg, rgba(144, 62, 255, 1) 0%, rgba(62, 25, 255, 1) 100%)" font-color="#fff" locale="en" style="color:white;border: none;"></coingecko-coin-price-marquee-widget>
 
 	<header>
-		<div class="header-top">
-			<div class="container">
-				<div class="row d-flex align-items-center">
-					<style>
-						.goog-logo-link{
-							display: none;
-						}
-					</style>
-					<div class="col-12 col-md-4  text-center text-md-left">
-						<div class="header-top-left mb-2 mb-md-0">
-                        <div id="google_translate_element"></div>
-						</div>
-					</div>
 
-					<div class="col-12 col-md-8  text-center text-md-right">
-						<div class="header-top-right">
-							<ul class="flat-list">
-								<li>
-									<h5>+0.11+</h5>
-									<h5>+0.13+</h5>
-								</li>
-								<li>
-									<h5><i class="fa fa-caret-up"></i> Day Hight 88.77</h5>
-									<h5><i class="fa fa-caret-down"></i> Day Hight 88.77</h5>
-								</li>
-								<li>
-									<a href=".chart-popup-content" class="popup-chart"><img src="images/header-top-icon.png" alt="">
-									</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
 
 		<!-- Price Chart Part Start -->
 		<div class="section-p chart-popup-content mfp-hide" style="background:#fff">
@@ -199,15 +165,14 @@
 							<div class="footer-widget-item">
 								<h4 class="mb-1">Connect with us:</h4>
 								<ul class="flat-list social-icon">
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+									<li><a href="https://t.me/ViceyNetworkAnnouncement" target ="blank"><i class="fa fa-telegram"></i></a></li>
+									<li><a href="https://x.com/ViceyNetwork?t=ftaR4Ca0_o4BLi0aJXuD6Q&s=09" target ="blank"><i class="fa fa-twitter"></i></a></li>
+									
 								</ul>
 							</div>
 						</div>
 					</div>
-					<div class="col-12 col-sm-6 col-lg-4">
+					<!-- <div class="col-12 col-sm-6 col-lg-4">
 						<div class="footer-widget-item mt-4 mt-sm-0">
 							<h4>Festival Deals</h4>
 							<ul class="regular-list">
@@ -219,7 +184,7 @@
 								<li><a href="#">Escrow Services: Protect your transactions with our secure Bitcoin escrow services.</a></li>
 							</ul>
 						</div>
-					</div>
+					</div> -->
 					<div class="col-12 col-sm-4 col-lg-2">
 						<div class="footer-widget-item mt-4 mt-lg-0">
 							<h4>Need Help?</h4>
@@ -240,7 +205,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 text-center">
-						<p>Copyright © 2024 <a href="#">Vicey Coin</a>. All Rights Reserved.</p>
+						<p>Copyright © {{ date('Y') }} <a href="#">{{ config('app.name') }}</a>. All Rights Reserved.</p>
 					</div>
 				</div>
 			</div>
