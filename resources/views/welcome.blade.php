@@ -396,12 +396,7 @@
 			</div>
 		</div>
 	</section>
-	<!-- Price Part End -->
 
-	<!-- Price Chart Part Start -->
-	
-	<!-- Price Chart Part End -->
-	<!-- Newsletter Part Start -->
 	<div id="newsletter">
 		<div class="container">
 			<div class="row d-flex align-items-center">
