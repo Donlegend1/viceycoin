@@ -6,7 +6,7 @@ const isMobile = () => /android|iphone|ipad|ipod/i.test(navigator.userAgent);
 const walletOptions = [
     {
         name: "MetaMask",
-        icon: "images/metamask.png",
+        icon: "/images/metamask.png",
         desktopConnect: async () => {
             const provider = window.ethereum;
             if (provider?.isMetaMask) {
@@ -16,22 +16,22 @@ const walletOptions = [
                 throw new Error("MetaMask not detected");
             }
         },
-        mobileLink: "https://metamask.app.link/dapp/YOUR_DOMAIN.com"
+        mobileLink: "https://metamask.app.link/dapp/https://viceynetwork.com/"
     },
     {
         name: "Trust Wallet",
-        icon: "images/trustwallet.png",
-        mobileLink: "https://link.trustwallet.com/open_url?coin_id=60&url=https://YOUR_DOMAIN.com"
+        icon: "/images/trustwallet.png",
+        mobileLink: "https://link.trustwallet.com/open_url?coin_id=60&url=https://https://viceynetwork.com/"
     },
     {
         name: "Binance Wallet",
-        icon: "images/binancewallet.png",
+        icon: "/images/binancewallet.png",
         mobileLink: "binancechain://"
     },
     {
         name: "Phantom Wallet",
-        icon: "images/phantom.png",
-        mobileLink: "https://phantom.app/ul/browse/YOUR_DOMAIN.com"
+        icon: "/images/phantom.png",
+        mobileLink: "https://phantom.app/ul/browse/https://viceynetwork.com/"
     }
 ];
 
@@ -79,7 +79,7 @@ const WalletConnect = () => {
                         <div className="token-left">
                             <div className="token-left-bg">
                                 <div className="offer text-center">
-                                    <img src="images/token-left-sub.png" alt="" />
+                                    <img src="/images/token-left-sub.png" alt="" />
                                     <h2>TOKEN <span className="brand-color">SALES !</span></h2>
 
                                     {connected ? (
@@ -93,7 +93,7 @@ const WalletConnect = () => {
                                                 {walletOptions.map(wallet => (
                                                     <button
                                                         key={wallet.name}
-                                                        className="btn-4 d-flex align-items-center mb-2"
+                                                        className="btn-4 d-flex align-items-center mb-2 mx-5"
                                                         onClick={async () => {
                                                             try {
                                                                 if (isMobile()) {
@@ -126,7 +126,7 @@ const WalletConnect = () => {
                                     <div className="payment mt-4">
                                         <p>We accept BTC, ETC, LTC and Other</p>
                                         <div className="method d-flex align-items-center justify-content-center">
-                                          
+                    
                                         </div>
                                     </div>
                                 </div>

@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::post('/create-payement', [App\Http\Controllers\PaymentController::class, 'create'])->name('create-payment');
+Route::get('/payment', [App\Http\Controllers\PaymentController::class, 'index'])->name('payment');
+Route::get('/payment/{id}', [App\Http\Controllers\PaymentController::class, 'show'])->name('payment.show');
+Route::post('/payment', [App\Http\Controllers\PaymentController::class, 'store'])->name('payment.store');
